@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  min-width: 1280px;
+}
+
+.app-introduction h2 {
+  font-size: 52px;
+  margin-bottom: 12px;
+}
+
+.topic {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.topic:hover {
+  transform: scale(1.01);
+}
+
+.topics-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+.custom-topic-container input {
+  width: 60%;
+  color: white;
+  margin-right: 12px;
+  box-shadow: none;
+  padding: 15px;
+}
+
+.custom-topic-container input::placeholder {
+  color: white;
+}
+
+.custom-topic-container button {
+  height: 50px;
+}
+
+.big-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.position-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.position-buttons-container button {
+  height: 50px;
+  width: 30%;
+}
+
+.debate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+}
+
+.debate-buttons-container {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-top: 12px;
+  width: 100%;
+  justify-content: center;
+}
+
+.debate-buttons-container button {
+  width: 33%;
+}
+
+.debate-messages-container {
+  overflow-y: scroll;
+  max-height: 60vh;
+  height: 60vh;
+}
+
+.messege {
+  text-align: left;
+}
+
+.message-author {
+  margin-bottom: 0px;
+  font-size: 22px;
+}
